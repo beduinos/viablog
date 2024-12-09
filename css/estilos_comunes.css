@@ -1,0 +1,378 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/*ESTILOS MENÚ NAVEGACIÓN*/
+.menu{
+    position:sticky;
+    top:0;
+    z-index: 2;
+    width: 100%;
+    background-color: rgb(83, 89, 89);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.navegacion{
+display: flex;
+padding: 2px;
+justify-items: center;
+align-items: center;
+
+}
+
+.nav{
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.nav.active{
+    font-weight: bold; 
+    color: rgb(202, 215, 24);
+}
+
+/*ESTILOS CABECERA*/
+.cabecera{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: left;
+  /*  border:solid;
+    border-radius: 1px;
+    border-color: black;*/
+    background-color: rgb(46, 92, 115);
+}
+
+.texto-cabecera{
+    display: flex;
+    width: 40%;
+    align-self:center;
+    color: whitesmoke;
+    
+
+}
+
+.imagen-cabecera{
+    display: flex;
+    margin-right: 10px;
+    padding: 20px;
+    justify-content: right;
+   
+
+}
+
+.imagen{
+    margin-left: 10px ;
+    border:solid;
+    border-color: white;
+    
+
+}
+
+/*ESTILOS PREVISUALIZACION 7 NOTICIAS*/
+/*6 NOTICIAS*/
+
+
+.noticias{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+}
+
+.noticias6{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex: 3;
+    border:dotted;
+    border-radius: 1px;
+    border-color: rgb(206, 23, 206);
+    
+
+}
+
+.noticias6 .articulo{
+    display: flex;
+    flex: 1 1 calc(33.33% - 5px);
+    max-width: 33.33%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+    background-color: rgb(83, 89, 89);
+    border: dotted;
+    border-color: aliceblue;
+    margin: 2px;
+    justify-content:space-between;
+    
+}
+
+.articulo>img{
+    display: flex;
+    max-width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    
+
+}
+
+.articulo:hover{
+    background-color: burlywood;
+}
+
+.articulo>h2{
+    display: flex;
+    margin: 5px 0;
+    font-size: 1em;
+    height: 20%;
+    color:whitesmoke;
+
+}
+
+.articulo>p{
+    display: flex;
+    text-align: center;
+    height: 40%;
+    color: bisque;
+    overflow: hidden; /* Oculta el contenido desbordado */
+    padding: 10px;
+
+}
+
+.parr::first-letter {
+    font-size: 2em; /* Tamaño más grande */
+    color: red; /* Cambia el color */
+    font-weight: bold; /* Aplica negrita */
+}
+/*NOTICIA 7*/
+.noticias7{
+    display:flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 2px;
+    padding:10px;
+    justify-content:space-between;
+    border:dotted;
+    border-radius: 1px;
+    border-color: darkorange;
+    background-color:rgb(76, 133, 162);
+
+    
+}
+
+.noticias7>h1{
+    display: flex;
+    height: 30%;
+    padding-bottom: 20px;
+    color: antiquewhite;
+    align-self: self-end;
+
+}
+.n7-2{
+    display: flex;
+    height: 70%;
+    flex-direction: row;
+    color: #fafafa;
+}
+
+.n7-2>img{
+    max-width: 50%;
+    margin-left: 10PX;
+    height: auto;
+}
+
+.noticias7:hover{
+    background-color: burlywood;
+}
+
+/*ESTILOS FOOTER*/
+.pie {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    align-items: left;
+    height: 50px; 
+    font-size: 1rem;
+    text-align: left;
+}
+
+/*ESTILOS NOTICIA BLOG*/
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(46, 92, 115);
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.noticia-ampliada{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    border-radius: 1px;
+    border: dotted;
+    border-color: aquamarine;
+}
+
+.img-noticia{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding:30px;
+    height: 630px;
+}
+
+.blog{
+    display: flex;
+    padding: 20px;
+    width: 70%;
+    margin:2px;
+    border-radius: 1px;
+    border: dotted;
+    border-color: rgb(255, 127, 174);
+    flex-direction: column;
+
+}
+
+.anuncio{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 2px;
+    width: 30%;
+    border-radius: 1px;
+    border: dotted;
+    border-color: rgb(172, 127, 255);
+    justify-content: space-between;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    }
+
+.datos{
+    display:flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border: solid;
+    border-color: rgba(62, 78, 130, 0.732);
+    margin: 10px;
+    padding: 5px;
+}
+
+
+.news{
+    display:flex;
+    flex-direction: column;
+    border-radius: 1px;
+    border: solid;
+    border-color: rgba(62, 78, 130, 0.732);
+    margin: 10px;
+    padding: 5px;
+}
+
+.submit{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.reset{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*ESTILOS LOCALIzACIONES*/
+
+.mapas{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.ciudades{
+    display: flex;
+    width: 20%;
+    border-color: rgba(62, 78, 130, 0.732);
+    border-radius: 1px;
+    border: solid;
+    flex-grow: 1;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(62, 78, 130, 0.732);
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 2rem;
+    flex-direction: column;
+    
+}
+
+.iframe{
+    display: flex;
+    width: 80%;
+    padding: 10px;;
+}
+
+.hidden-iframe{
+    display: none; 
+}
+
+/* ESTILOS TABLA */
+.tabla-estadisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabla-estadisticas table {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.tabla-estadisticas th,
+.tabla-estadisticas td {
+    border: 1px solid;
+    border-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-estadisticas th {
+    background-color: #333;
+    color: white;
+}
+
+
+.tabla-estadisticas .leyenda {
+    width: 90%;
+    text-align: left;
+    background-color: #fafafa;
+    padding: 10px;
+    border: 1px solid #ddd;
+}

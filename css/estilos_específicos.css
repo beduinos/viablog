@@ -1,0 +1,9 @@
+.noticias{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid;
+    border-radius: 1;
+    border-color: chartreuse;
+}
