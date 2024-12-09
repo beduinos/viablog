@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viablog</title>
+    <link rel="stylesheet" href="css/estilos_comunes.css">
+    <link rel="stylesheet" href="css/estilos_especificos.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul class="navegacion">
+            <a class="nav" href="index.html"> &#x1f4f0; NOTICIAS</a>
+            <a class="nav active" href="localizaciones.html"> &#x1f30d; LOCALIZACIONES</a>
+            <a class="nav" href="contacto.html"> &#x1f4ec; CONTACTO</a>
+        </ul>
+
+    </nav>
+
+    <main>
+        <section class="mapas">
+
+            <menu class="ciudades">
+                <h3>SELECCIONA UNA CIUDAD</h3>
+                <ul>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182605.76571467586!2d12.5359979!3d41.9100711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRoma%2C%20Italia!5e1!3m2!1ses!2ses!4v1733663558838!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> ➡️ROMA</a><br>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80717.75810027313!2d2.2646344809035113!3d48.858825492060404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2zUGFyw61zLCBGcmFuY2lh!5e1!3m2!1ses!2ses!4v1733661433473!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> ➡️PARIS</a><br>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d149867.81700863913!2d4.739154247507538!3d52.35455102134623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2zw4Ftc3RlcmRhbSwgUGHDrXNlcyBCYWpvcw!5e1!3m2!1ses!2ses!4v1733663485316!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> ➡️AMSTERDAM</a><br>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186757.344435193!2d-3.9913697761400218!3d40.43753537776269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e1!3m2!1ses!2ses!4v1733663671592!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> ➡️MADRID</a><br>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48874.234135279694!2d-3.63247141198467!3d37.18093911779942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fce62d32c27d%3A0x9258f79dd3600d72!2sGranada!5e1!3m2!1ses!2ses!4v1733663841438!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgradeS"> ➡️GRANADA</a><br>
+                    <a class="nav" target="interno"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24407.994362174417!2d-6.9602899478708995!3d37.270866115432455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfe6d744284b%3A0xd82baac110b40f83!2sHuelva!5e1!3m2!1ses!2ses!4v1733664022589!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> ➡️HUELVA</a><br>
+                </ul>
+            </menu>
+
+            <iframe id="mainIframe" class="iframe" src="https://www.google.com/maps/embed?..." allowfullscreen
+                name="interno" width="900px" height="600px"></iframe>
+        </section>
+        <div class="tabla-estadisticas">
+            <table>
+                    <tr>
+                        <th>M</th>
+                        <th>C</th>
+                        <th>CA</th>
+                        <th>P</th>
+                        <th>Media T.</th>
+                        <th>Máximo T.</th>
+                        <th>Mínimo T.</th>
+                        <th>PMH</th>
+                    </tr>               
+               
+                    <tr>
+                        <td>Enero</td>
+                        <td rowspan="12">Madrid</td>
+                        <td rowspan="12">Madrid</td>
+                        <td rowspan="36">España</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                       <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                       <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Junio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Julio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Septiembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Ocubre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Noviembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Enero</td>
+                        <td rowspan="12">El Rompido</td>
+                        <td rowspan="24">Andalucía</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Junio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Julio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Septiembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Ocubre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Noviembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>Enero</td>
+                        <td rowspan="12">Granada</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Junio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Julio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Septiembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Ocubre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Noviembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+
+                    <tr>
+                        <td>Enero</td>
+                        <td rowspan="12">Amsterdam</td>
+                        <td rowspan="12">Amsterdam</td>
+                        <td rowspan="12">Países Bajos</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Febrero</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Marzo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Abril</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Mayo</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Junio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Julio</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Agosto</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Septiembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Ocubre</td>
+                       <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Noviembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+                    <tr>
+                        <td>Diciembre</td>
+                        <td>10000</td>
+                        <td>20000</td>
+                        <td>5000</td>
+                        <td>100€</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <div class="leyenda">
+                <p><strong>M:</strong> Mes del año</p>
+                <p><strong>C:</strong> Ciudad de las estadísticas</p>
+                <p><strong>CA:</strong> Comunidad Autónoma</p>
+                <p><strong>P:</strong> País de la ciudad</p>
+                <p><strong>Media T.:</strong> Número promedio de turistas</p>
+                <p><strong>Máximo T.:</strong> Máximo de turistas en un día</p>
+                <p><strong>Mínimo T.:</strong> Mínimo de turistas en un día</p>
+                <p><strong>PMH:</strong> Precio medio de hoteles por noche</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viablog</title>
+    <link rel="stylesheet" href="css/estilos_comunes.css">
+    <link rel="stylesheet" href="css/estilos_especificos.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul class="navegacion">
+            <a class="nav" href="index.html"> &#x1f4f0; NOTICIAS</a>
+            <a class="nav" href="localizaciones.html"> &#x1f30d; LOCALIZACIONES</a>
+            <a class="nav active" href="contacto.html"> &#x1f4ec; CONTACTO</a>
+        </ul>
+
+    </nav>
+
+    <header class="cabecera">
+        <h1 class="texto-cabecera">Viablog - Viajes Contados</h1>
+        <div class=" cabecera imagen-cabecera">
+            <img class="imagen" src="img/header1.jpg" alt="logo">
+            <img class="imagen" src="img/header2.jpg" alt="chica viajera">
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <form>
+            <fieldset class="datos">
+                <legend>Datos personales</legend>
+                <label for="nick">Nickname:</label><br>
+                <input type="text" id="nick" name="nick" minlength="3" required><br>
+                <label for="apellidos">Apellidos:</label><br>
+                <input type="text" id="apellidos" name="apellidos" pattern="^[a-zA-Z]{3,}\s[a-zA-Z]{3,}$" required ><br>
+                <label for="mail">Correo electrónico:</label><br>
+                <input type="email" id="mail" name="mail" required><br>
+                <label for="pais">País</label> <br>
+                <select id="pais" name="pais">
+                    <option value="" selected="selected">- selecciona -</option>
+                    <option value="España">ESPAÑA</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Italia">Italia</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="news">
+                <legend>Datos de Noticia</legend>
+                <label for="tipo">Tipo de noticia</label> <br>
+                <select id="tipo" name="tipo">
+                    <option value="" selected="selected">- selecciona -</option>
+                    <option value="Playa">Playa</option>
+                    <option value="Montaña">Montaña</option>
+                    <option value="Nieve">Nieve</option>
+                    <option value="Otros">Otros</option>
+                </select><br>
+                <label for="titulo">Título de la noticia:</label><br>
+                <input type="text" id="titulo" name="titulo" minlength="5" required><br>
+                <label for="cuerpo">Contenido de la noticia:</label><br>
+                <input type="text" id="cuerpo" name="cuerpo" maxlength="300" required><br>
+                <label for="importancia">Importancia:</label><br>
+                <input type="number" id="importancia" name="importancia" min="0" max="100"><br>
+                
+            </fieldset>
+
+            <fieldset class="news">
+                <input class="submit" type="submit" value="Enviar"><br>
+                <input class= "reset" type="reset" value="Resetear">
+                
+            </fieldset>
+        </form>
+        </section>
+
+
+    </main>
+
+    <footer class="pie">
+        <input type="text" name="buscar" placeholder="Buscar en el blog">
+        <button type="submit">Buscar</button>
+    </footer>
+</body>
+
+</html>
